@@ -1,0 +1,131 @@
+:root {
+  --color-theme1: #001d66;
+  --color-theme2: #181f49;
+  --color-theme3: #d9d9d9;
+}
+
+/* style.css */
+.navbar-nav {
+  margin: 0 auto; /* Centre le menu */
+  display: table;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white; /* Change la couleur des liens en blanc */
+}
+
+.bg-principal {
+  background-color: var(--color-theme1);
+}
+
+.bg-secondaire {
+  background-color: var(--color-theme2);
+}
+
+.bg-gris {
+  background-color: var(--color-theme3);
+}
+
+.bg-transparant {
+  background-color: rgba(128, 128, 128, 0.75);
+}
+
+.c-principal {
+  color: #ffff !important;
+}
+
+.c-secondaire {
+  color: var(--color-theme2);
+}
+
+.c-secondaire {
+  color: var(--color-theme1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.un {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.deux {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.trois {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+.quatre {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+img,
+video,
+svg {
+  max-width: 100%;
+  /*height: auto; */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 16px; /*H G-D B*/
+}
+
+/* ANCHOR SIZING */
+
+.mw-1320 {
+  max-width: 1320px;
+}
+
+/* ANCHOR SPACING */
+
+.m-auto {
+  margin: auto;
+}
+
+/* ANCHOR FLEX CONTAINER */
+
+.d-flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* ANCHOR FLEX ITEMS */
+
+.f-1-300 {
+  flex: 1 1 300px;
+}
